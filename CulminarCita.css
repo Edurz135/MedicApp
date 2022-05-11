@@ -11,14 +11,13 @@
     border-radius: 15px;
 
 }
-.container2{
-    
-}
+
 #bord{
     margin-top: 10px;
     background-color:aquamarine;
     height: 770px;
     width: 610px;
+    border-radius: 15px;
 }
 
 #bord2{
@@ -26,6 +25,7 @@
     background-color: lightcyan;
     height: 770px;
     width: 610px;
+    border-radius: 15px;
 }
    
 #floatingTextarea2{

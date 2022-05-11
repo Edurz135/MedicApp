@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: auto;
+    margin-top: 100px;
+    width:  900px;
+    height: 800px;
+    background-color:linen;
+    border-radius: 15px;
+
+}
+.container2{
+    
+}
+#bord{
+    margin-top: 10px;
+    background-color:aquamarine;
+    height: 770px;
+    width: 610px;
+}
+
+#bord2{
+    margin-top: 10px;
+    background-color: lightcyan;
+    height: 770px;
+    width: 610px;
+}
+   
+#floatingTextarea2{
+    height: 300px;
+}
+h1{
+    text-align: center;
+}
+
+.espacio{
+    margin-top: 10px;
+    height: 30px;
+}
+.boton{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.recuadro{
+    height: 170px;
+}

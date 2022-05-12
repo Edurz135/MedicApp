@@ -1,0 +1,16 @@
+#container {
+  margin: 2%;
+  width: 96%;
+}
+
+.recuadro {
+  height: 650px;
+}
+
+.linea {
+  line-height: 200%;
+}
+.lista {
+  width: 30%;
+  margin: 50px;
+}

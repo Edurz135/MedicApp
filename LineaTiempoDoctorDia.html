@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/LineaTiempoDoctorDia.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Historial de Citas Dia</title>
+    
+</head>
+<body>
+    <canvas id="myChart2" ></canvas>
+</body>  
+<script>
+    const labels = [
+      '5',
+      '8',
+      '10',
+      '15',
+      '18',
+      '21',
+      '23',
+      '28',
+      '30',
+
+    ];
+  
+    const data = {
+      labels: labels,
+      datasets: [{
+        label: 'Dia',
+        backgroundColor: 'rgb(255, 99, 132)',
+        borderColor: 'rgb(255, 99, 132)',
+        data: [15,25,32,47,56,60,69,32,20],
+      }
+    ]
+
+    };
+    
+    
+    const config = {
+  type: 'line',
+  data: data,
+  options: {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top',
+        labels:{
+            font:{
+                size:24
+            }
+        }
+      },
+      title: {
+        display: true,
+        text: 'Historial de Citas',
+        font: {
+            size:32
+        }
+
+      }
+    }
+  },
+};
+  </script>
+  <script>
+    const myChart2 = new Chart(
+      document.getElementById('myChart2'),
+      config
+    );
+</script>
+       
+</html>

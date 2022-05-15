@@ -1,0 +1,19 @@
+.Titulos {
+  justify-content: center;
+  width: auto;
+}
+
+a {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.Titulos {
+  text-align: center;
+  justify-content: center;
+}
+
+#containerP {
+    margin-top: 15vh;
+}

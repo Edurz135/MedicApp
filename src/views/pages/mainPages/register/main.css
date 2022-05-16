@@ -48,5 +48,6 @@ a{
     margin: auto;
 }
 
-
-
+img {
+    height: 100%;
+}

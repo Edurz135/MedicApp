@@ -4,7 +4,7 @@
   }
   
   .recuadro {
-    height: 680px;
+    height: 700px;
   }
   
   .linea {
@@ -17,6 +17,6 @@
  .boton{
     margin-top: 20px;
     margin-left: 20px;
-
+    color: aquamarine;
 
  }  

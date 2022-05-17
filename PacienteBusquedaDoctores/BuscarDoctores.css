@@ -1,0 +1,25 @@
+
+.content-header {
+    height: 90vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content-header div h1 {
+    line-height: 7.5rem;
+    font-size: 8rem;
+    color: black;
+    font-weight: bold;
+}
+
+.content-header div p {
+    line-height: 0;
+    font-size: 2rem;
+    color: black;
+}
+
+.boton {
+    margin-top: 2.5rem;
+    width: 200px;
+}

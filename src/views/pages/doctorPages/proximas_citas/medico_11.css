@@ -18,6 +18,12 @@ th{
     text-align: center;
 }
 
+th, td {
+    padding: 2em;
+    background: #ddd;
+    border-bottom: 2px solid white; 
+  }
+
 .d-grid{
     width: 1000px;
     margin: auto;
@@ -33,4 +39,10 @@ th{
 
 tbody{
     background-color: rgb(210, 250, 245);
+}
+
+table {
+    border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
 }

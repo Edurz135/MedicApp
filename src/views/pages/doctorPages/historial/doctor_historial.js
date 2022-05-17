@@ -88,12 +88,14 @@ function onButtonClicked() {
     });
     this.classList.remove("btn-outline-primary");
     this.classList.add("btn-primary");
+
+
     const displayType = this.getAttribute("display-type");
-    myChart2.destroy();
+    myChart2.destroy(); // eliminar el grafico
     if (displayType == "month") {
-      myChart2 = new Chart(document.getElementById("myChart2"), month_config);
+      myChart2 = new Chart(document.getElementById("myChart2"), month_config); //creo un nuevo grafico con las opeciones mensuales
     } else {
-      myChart2 = new Chart(document.getElementById("myChart2"), day_config);
+      myChart2 = new Chart(document.getElementById("myChart2"), day_config); //creo un nuevo grafico con las opeciones diarias
     }
   }
 }

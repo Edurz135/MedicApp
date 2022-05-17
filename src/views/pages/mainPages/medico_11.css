@@ -1,0 +1,39 @@
+i{
+    font-size: 50px;
+}
+
+p{
+    margin: 0.5rem;
+}
+
+.d-flex{
+    margin: 0.5rem;
+}
+
+td{
+    text-align: center;
+}
+
+th{
+    text-align: center;
+}
+
+.d-grid{
+    width: 1000px;
+    margin: auto;
+}
+
+.d-inline-flex{
+    margin: 0.5rem;
+}
+
+#head-t{
+    background-color:rgb(48, 227, 202);
+}
+
+tbody{
+    background-color: rgb(210, 250, 245);
+}
+
+table{
+}

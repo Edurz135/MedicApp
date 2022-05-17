@@ -10,3 +10,7 @@ span{
     border: 1px dashed rgb(6, 226, 171);
     border-radius: 10px;
 }
+
+.d-inline-flex{
+    margin: 0.5rem;
+}
